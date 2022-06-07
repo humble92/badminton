@@ -149,7 +149,7 @@ def scrape_item(program="Badminton"):
         except StopIteration:
             break
 
-    write_json(programs, 'badminton_programs.json')
+    write_json(programs, f'programs_data/{program}.json')
     print("Drop-in badminton programs have been parsed.")
 
 
