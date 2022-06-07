@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block main %}
+    <h1>{{ program }} programs seeker in the City of Toronto</h1>
+
+    <form action="/search" method="post">
+        <input type="hidden" name="program" value="{{ program }}" required>
+        <input type="submit" value="Search">
+    </form>
+
+    {% if results %}
+    <h2>{{ program }} programs found (Total: {{ total }}):</h2>
+    <a href="/export?program={{ program }}" target="_blank">Download</a>
+    <section>
+        <h4>Location</h4>
+        <h4>Day</h4>
+        <h4>Timeslot</h4>
+        <h4>Age</h4>
+        {% for item in results %}
+            <span><a href="{{ item.url }}" target="_blank">{{ item.location }}</a></span>
+            <span>{{ item.day }}</span>
+            <span>{{ item.timeslot }}</span>
+            <span>{{ item.age }}</span>
+        {% endfor %}
+    </section>
+    {% endif %}
+
+{% endblock %}
+
+{% block custom_css %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='search.css') }}">
+{% endblock %}

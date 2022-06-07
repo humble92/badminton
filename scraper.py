@@ -92,6 +92,7 @@ class ItemScraper(BaseScraper):
                                 "day": days[i],
                                 "timeslot": timeslot,
                                 "age": age,
+                                "url": url,
                             }
 
             if programs_count == 0:
@@ -153,7 +154,8 @@ def scrape_item(program="Badminton"):
 
     write_json(programs, f'programs_data/{program}.json')
     save_csv(program, programs[program])
-    print("Drop-in badminton programs have been parsed.")
+    print(f"Drop-in {program} programs have been parsed.")
+    return programs[program]
 
 
 # function to add to JSON
@@ -163,5 +165,4 @@ def write_json(python_obj, filename=JSON_FILE, mode='w', indent=4):
 
 
 # temporarily test w/ Volleyball
-scrape_item("Volleyball")
-
+# scrape_item("Volleyball")
