@@ -5,6 +5,7 @@ from selenium.webdriver.chrome.service import Service
 import time
 import os.path
 import json
+from manage_csv import save_csv
 
 
 LIST_URL = "https://www.toronto.ca/data/parks/prd/facilities/recreationcentres/index.html"
@@ -63,6 +64,7 @@ class ItemScraper(BaseScraper):
         soup = BeautifulSoup(html, "html.parser")
 
         try:
+            rec_centre = soup.find("div", {"class":"accbox"}).find("h1")
             dropIns = soup.find("div", {"id":"pfrComplexTabs-dropin"})
             sports_tab = dropIns.find("tr", {"id":"dropin_Sports_0"})
             sports = sports_tab.tbody.find_all("tr")
@@ -86,10 +88,10 @@ class ItemScraper(BaseScraper):
                             programs_count += 1
 
                             yield {
-                                "title": program,
-                                "age": age,
+                                "location": rec_centre.get_text(strip=True),
                                 "day": days[i],
                                 "timeslot": timeslot,
+                                "age": age,
                             }
 
             if programs_count == 0:
@@ -150,6 +152,7 @@ def scrape_item(program="Badminton"):
             break
 
     write_json(programs, f'programs_data/{program}.json')
+    save_csv(program, programs[program])
     print("Drop-in badminton programs have been parsed.")
 
 
