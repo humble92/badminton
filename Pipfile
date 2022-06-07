@@ -5,6 +5,10 @@ name = "pypi"
 
 [packages]
 flask = "*"
+requests = "*"
+beautifulsoup4 = "*"
+selenium = "*"
+webdriver-manager = "*"
 
 [dev-packages]
 

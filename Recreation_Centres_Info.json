@@ -1,0 +1,824 @@
+{
+    "rec_centres": [
+        {
+            "title": "Adam Beck Community Centre",
+            "address": "79 Lawlor Ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=13"
+        },
+        {
+            "title": "Agincourt Recreation Centre",
+            "address": "31 Glen Watford Dr.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=523"
+        },
+        {
+            "title": "Albion Arena",
+            "address": "1501 ALBION RD",
+            "map_link": "/data/parks/maps/centres/index.html?marker=800"
+        },
+        {
+            "title": "Albion Pool and Health Club",
+            "address": "1485 Albion Rd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=893"
+        },
+        {
+            "title": "Alderwood Centre",
+            "address": "2 Orianna Dr.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=897"
+        },
+        {
+            "title": "Amesbury Community Centre",
+            "address": "1507 Lawrence Ave. W",
+            "map_link": "/data/parks/maps/centres/index.html?marker=472"
+        },
+        {
+            "title": "Ancaster Community Centre",
+            "address": "41 Ancaster Rd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=487"
+        },
+        {
+            "title": "Angela James Arena",
+            "address": "165 GRENOBLE DR",
+            "map_link": "/data/parks/maps/centres/index.html?marker=582"
+        },
+        {
+            "title": "Annette Community Recreation Centre",
+            "address": "333 Annette St.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=17"
+        },
+        {
+            "title": "Antibes Community Centre",
+            "address": "140 Antibes Dr.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=42"
+        },
+        {
+            "title": "Armour Heights Community Centre",
+            "address": "2140 Avenue Rd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=503"
+        },
+        {
+            "title": "Balmy Beach Community Recreation Centre",
+            "address": "14 Pine Ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=21"
+        },
+        {
+            "title": "Banbury Community Centre",
+            "address": "120 Banbury Rd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=511"
+        },
+        {
+            "title": "Barbara Frum Community Centre",
+            "address": "20 Covington Rd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1045"
+        },
+        {
+            "title": "Beaches Recreation Centre",
+            "address": "6 Williamson Rd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=24"
+        },
+        {
+            "title": "Bedford Park Community Centre",
+            "address": "81 RANLEIGH AVE",
+            "map_link": "/data/parks/maps/centres/index.html?marker=27"
+        },
+        {
+            "title": "Berner Trail Community Centre",
+            "address": "120 BERNER  TRAIL",
+            "map_link": "/data/parks/maps/centres/index.html?marker=535"
+        },
+        {
+            "title": "Birchmount Community Centre",
+            "address": "93 Birchmount Rd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=507"
+        },
+        {
+            "title": "Birkdale Community Centre",
+            "address": "1299 ELLESMERE RD",
+            "map_link": "/data/parks/maps/centres/index.html?marker=289"
+        },
+        {
+            "title": "Bloordale Community School",
+            "address": "10 Toledo Rd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1132"
+        },
+        {
+            "title": "Bob Abate Community Recreation Centre",
+            "address": "485 Montrose Ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=30"
+        },
+        {
+            "title": "Broadlands Community Centre",
+            "address": "19 Castlegrove Blvd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=7"
+        },
+        {
+            "title": "Brown Community Centre",
+            "address": "454 Avenue Rd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=33"
+        },
+        {
+            "title": "Burrows Hall Community Centre",
+            "address": "1081 PROGRESS AVE",
+            "map_link": "/data/parks/maps/centres/index.html?marker=591"
+        },
+        {
+            "title": "Canoe Landing Community Recreation Centre",
+            "address": "45 Fort York Blvd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=3643"
+        },
+        {
+            "title": "Carmine Stefano Community Centre",
+            "address": "3100 WESTON RD",
+            "map_link": "/data/parks/maps/centres/index.html?marker=350"
+        },
+        {
+            "title": "Cedarbrook Community Centre",
+            "address": "91 EASTPARK BLVD",
+            "map_link": "/data/parks/maps/centres/index.html?marker=600"
+        },
+        {
+            "title": "Centennial Park Arena",
+            "address": "156 CENTENNIAL PARK RD",
+            "map_link": "/data/parks/maps/centres/index.html?marker=913"
+        },
+        {
+            "title": "Centennial Recreation Centre - Scarborough",
+            "address": "1967 ELLESMERE RD",
+            "map_link": "/data/parks/maps/centres/index.html?marker=537"
+        },
+        {
+            "title": "Central Arena",
+            "address": "50 MONTGOMERY RD",
+            "map_link": "/data/parks/maps/centres/index.html?marker=824"
+        },
+        {
+            "title": "Chalkfarm Community Centre",
+            "address": "180 CHALKFARM DR",
+            "map_link": "/data/parks/maps/centres/index.html?marker=486"
+        },
+        {
+            "title": "Chris Tonks Arena",
+            "address": "95 BLACK CREEK DR",
+            "map_link": "/data/parks/maps/centres/index.html?marker=476"
+        },
+        {
+            "title": "Commander Recreation Centre",
+            "address": "140 COMMANDER BLVD",
+            "map_link": "/data/parks/maps/centres/index.html?marker=558"
+        },
+        {
+            "title": "Cummer Park Community Centre",
+            "address": "6000 Leslie St.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=499"
+        },
+        {
+            "title": "Curran Hall Community Centre",
+            "address": "277 ORTON PARK RD",
+            "map_link": "/data/parks/maps/centres/index.html?marker=782"
+        },
+        {
+            "title": "David Appleton Community Recreation Centre",
+            "address": "33 PRITCHARD AVE",
+            "map_link": "/data/parks/maps/centres/index.html?marker=25"
+        },
+        {
+            "title": "Dennis R. Timbrell Resource Centre",
+            "address": "29 St Dennis Dr.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1056"
+        },
+        {
+            "title": "Domenico Di Luca Community Recreation Centre",
+            "address": "25 Stanley Rd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=760"
+        },
+        {
+            "title": "Don Montgomery Community Centre",
+            "address": "2467 Eglinton Ave. E",
+            "map_link": "/data/parks/maps/centres/index.html?marker=712"
+        },
+        {
+            "title": "Downsview Arena",
+            "address": "1633 WILSON AVE",
+            "map_link": "/data/parks/maps/centres/index.html?marker=568"
+        },
+        {
+            "title": "Driftwood Community Recreation Centre",
+            "address": "4401 Jane St.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=575"
+        },
+        {
+            "title": "Earl Bales Community Centre",
+            "address": "4169 BATHURST ST",
+            "map_link": "/data/parks/maps/centres/index.html?marker=171"
+        },
+        {
+            "title": "Earl Beatty Community Centre",
+            "address": "455 Glebeholme Blvd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=36"
+        },
+        {
+            "title": "East York Community Centre",
+            "address": "1081 Pape Ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=329"
+        },
+        {
+            "title": "East York Curling Club",
+            "address": "901 Cosburn Ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1855"
+        },
+        {
+            "title": "Edenbridge Centre",
+            "address": "235 Edenbridge Dr.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=436"
+        },
+        {
+            "title": "Edgehill House",
+            "address": "61 EDGEHILL RD",
+            "map_link": "/data/parks/maps/centres/index.html?marker=428"
+        },
+        {
+            "title": "Edithvale Community Centre",
+            "address": "131 Finch Ave. W",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1463"
+        },
+        {
+            "title": "Ellesmere Community Centre",
+            "address": "20 Canadian Rd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=617"
+        },
+        {
+            "title": "Elmbank Community Centre",
+            "address": "10 Rampart Rd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=750"
+        },
+        {
+            "title": "Etobicoke Civic Centre",
+            "address": "399 The West Mall",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1062"
+        },
+        {
+            "title": "Etobicoke Olympium",
+            "address": "590 Rathburn Rd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=892"
+        },
+        {
+            "title": "Fairbank Memorial Community Centre",
+            "address": "2213 DUFFERIN ST",
+            "map_link": "/data/parks/maps/centres/index.html?marker=482"
+        },
+        {
+            "title": "Fairfield Seniors' Centre",
+            "address": "80 Lothian ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=822"
+        },
+        {
+            "title": "Fairmount Park Community Centre",
+            "address": "1757 Gerrard St. E",
+            "map_link": "/data/parks/maps/centres/index.html?marker=308"
+        },
+        {
+            "title": "Falstaff Community Centre",
+            "address": "50 FALSTAFF AVE",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1063"
+        },
+        {
+            "title": "Flemingdon Community Centre",
+            "address": "150 Grenoble Dr.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=583"
+        },
+        {
+            "title": "Frankland Community Centre",
+            "address": "816 Logan Ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=39"
+        },
+        {
+            "title": "Glen Long Community Centre",
+            "address": "35 Glen Long Ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=638"
+        },
+        {
+            "title": "Gord and Irene Risk Community Centre",
+            "address": "2650 Finch Ave. W",
+            "map_link": "/data/parks/maps/centres/index.html?marker=642"
+        },
+        {
+            "title": "Goulding Community Centre",
+            "address": "45 Goulding Ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=643"
+        },
+        {
+            "title": "Grandravine Community Recreation Centre",
+            "address": "23 Grandravine Dr.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=647"
+        },
+        {
+            "title": "Gus Ryder Pool and Health Club",
+            "address": "1 Faustina Dr.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=896"
+        },
+        {
+            "title": "Habitant Arena",
+            "address": "3383 WESTON RD",
+            "map_link": "/data/parks/maps/centres/index.html?marker=652"
+        },
+        {
+            "title": "Harrison Pool",
+            "address": "15 STEPHANIE ST",
+            "map_link": "/data/parks/maps/centres/index.html?marker=45"
+        },
+        {
+            "title": "Harwood Hall",
+            "address": "85 CAYUGA AVE",
+            "map_link": "/data/parks/maps/centres/index.html?marker=478"
+        },
+        {
+            "title": "Herbert H. Carnegie Centennial Centre",
+            "address": "580 Finch Ave. W",
+            "map_link": "/data/parks/maps/centres/index.html?marker=483"
+        },
+        {
+            "title": "Heron Park Community Centre",
+            "address": "292 Manse Rd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=633"
+        },
+        {
+            "title": "Hillcrest Community Centre",
+            "address": "1339 BATHURST ST",
+            "map_link": "/data/parks/maps/centres/index.html?marker=48"
+        },
+        {
+            "title": "Hilltop Community School",
+            "address": "35 TREHORNE DR",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1219"
+        },
+        {
+            "title": "Hollycrest Community School",
+            "address": "630 Renforth Dr.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1221"
+        },
+        {
+            "title": "Holy Family Community Centre",
+            "address": "141 CLOSE AVE",
+            "map_link": "/data/parks/maps/centres/index.html?marker=52"
+        },
+        {
+            "title": "Horner Avenue Seniors Centre",
+            "address": "320 Horner Ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=823"
+        },
+        {
+            "title": "Humberwood Community Centre",
+            "address": "850 Humberwood Blvd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=755"
+        },
+        {
+            "title": "Irving W. Chapley Community Centre",
+            "address": "205 Wilmington Ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=664"
+        },
+        {
+            "title": "Islington Community School",
+            "address": "44 Cordova Ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1232"
+        },
+        {
+            "title": "Islington Seniors' Centre",
+            "address": "4968 DUNDAS ST W",
+            "map_link": "/data/parks/maps/centres/index.html?marker=821"
+        },
+        {
+            "title": "Jack Goodlad Community Centre",
+            "address": "929 KENNEDY RD",
+            "map_link": "/data/parks/maps/centres/index.html?marker=630"
+        },
+        {
+            "title": "James S. Bell Community School",
+            "address": "90 Thirty First St.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1234"
+        },
+        {
+            "title": "Jenner Jean-Marie Community Centre",
+            "address": "48 Thorncliffe Park Dr.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1076"
+        },
+        {
+            "title": "Jimmie Simpson Recreation Centre",
+            "address": "870 Queen St. E",
+            "map_link": "/data/parks/maps/centres/index.html?marker=58"
+        },
+        {
+            "title": "John Booth Memorial Arena",
+            "address": "230 GOSFORD BLVD",
+            "map_link": "/data/parks/maps/centres/index.html?marker=667"
+        },
+        {
+            "title": "John English Community School",
+            "address": "95 Mimico Ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1236"
+        },
+        {
+            "title": "John G. Althouse Community School",
+            "address": "130 LLOYD MANOR RD",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1237"
+        },
+        {
+            "title": "John Innes Community Recreation Centre",
+            "address": "150 Sherbourne St.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=63"
+        },
+        {
+            "title": "Joseph J. Piccininni Community Centre",
+            "address": "1369 St. Clair Ave. W",
+            "map_link": "/data/parks/maps/centres/index.html?marker=509"
+        },
+        {
+            "title": "Keele Community Centre",
+            "address": "181 Glenlake Ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=84"
+        },
+        {
+            "title": "Ken Cox Community Centre",
+            "address": "28 Colonel Samuel Smith Park Dr.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1078"
+        },
+        {
+            "title": "Kingsview Village Community School",
+            "address": "1 YORK RD",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1244"
+        },
+        {
+            "title": "L'Amoreaux Community Recreation Centre",
+            "address": "2000 McNicoll Ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=788"
+        },
+        {
+            "title": "Lambton Arena",
+            "address": "4100 DUNDAS ST W",
+            "map_link": "/data/parks/maps/centres/index.html?marker=479"
+        },
+        {
+            "title": "Lawrence Heights Community Centre",
+            "address": "5 Replin Rd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=675"
+        },
+        {
+            "title": "Leaside Curling Club",
+            "address": "1075 Millwood Rd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1856"
+        },
+        {
+            "title": "Long Branch Arena",
+            "address": "75 ARCADIAN CIR",
+            "map_link": "/data/parks/maps/centres/index.html?marker=803"
+        },
+        {
+            "title": "Main Square Community Centre",
+            "address": "245 Main St.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=85"
+        },
+        {
+            "title": "Malvern Recreation Centre",
+            "address": "30 SEWELLS RD",
+            "map_link": "/data/parks/maps/centres/index.html?marker=702"
+        },
+        {
+            "title": "Mary McCormick Recreation Centre",
+            "address": "66 Sheridan Ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=100"
+        },
+        {
+            "title": "Masaryk-Cowan Community Recreation Centre",
+            "address": "220 Cowan Ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=89"
+        },
+        {
+            "title": "Matty Eckler Recreation Centre",
+            "address": "953 Gerrard St. E",
+            "map_link": "/data/parks/maps/centres/index.html?marker=234"
+        },
+        {
+            "title": "Maurice Cody Community Centre",
+            "address": "181 Cleveland St.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=96"
+        },
+        {
+            "title": "McGregor Park Community Centre",
+            "address": "2231 Lawrence Ave. E",
+            "map_link": "/data/parks/maps/centres/index.html?marker=506"
+        },
+        {
+            "title": "Memorial Pool and Health Club",
+            "address": "44 Montgomery Rd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=891"
+        },
+        {
+            "title": "Milliken Park Community Recreation Centre",
+            "address": "4325 MCCOWAN RD",
+            "map_link": "/data/parks/maps/centres/index.html?marker=405"
+        },
+        {
+            "title": "Mimico Arena",
+            "address": "31 DRUMMOND ST",
+            "map_link": "/data/parks/maps/centres/index.html?marker=802"
+        },
+        {
+            "title": "Mitchell Field Community Centre",
+            "address": "89 Church Ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=693"
+        },
+        {
+            "title": "Mount Dennis Community Hall",
+            "address": "4 Hollis St.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1462"
+        },
+        {
+            "title": "New Toronto Seniors' Centre",
+            "address": "105 Fourth St.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1091"
+        },
+        {
+            "title": "Norseman Community School and Pool",
+            "address": "105 Norseman St.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=797"
+        },
+        {
+            "title": "North Kipling Community Centre",
+            "address": "2 Rowntree Rd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=749"
+        },
+        {
+            "title": "North Toronto Memorial Community Centre",
+            "address": "200 Eglinton Ave. W",
+            "map_link": "/data/parks/maps/centres/index.html?marker=189"
+        },
+        {
+            "title": "North York Civic Centre",
+            "address": "5100 Yonge St.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=927"
+        },
+        {
+            "title": "Northwood Community Centre",
+            "address": "15 Clubhouse Crt.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=703"
+        },
+        {
+            "title": "O'Connor Community Centre",
+            "address": "1386 Victoria Park Ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1093"
+        },
+        {
+            "title": "Oakdale Community Centre",
+            "address": "350 Grandravine Dr.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=780"
+        },
+        {
+            "title": "Oakridge Community Recreation Centre",
+            "address": "63 Pharmacy Ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=731"
+        },
+        {
+            "title": "Oriole Community Centre",
+            "address": "2975 Don Mills Rd. W",
+            "map_link": "/data/parks/maps/centres/index.html?marker=714"
+        },
+        {
+            "title": "Ourland Community Centre",
+            "address": "18 Ourland Ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=793"
+        },
+        {
+            "title": "Pam McConnell Aquatic Centre",
+            "address": "640 Dundas St. E",
+            "map_link": "/data/parks/maps/centres/index.html?marker=2012"
+        },
+        {
+            "title": "Park Lawn Community School",
+            "address": "71 BALLACAINE DR",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1288"
+        },
+        {
+            "title": "Parkdale Community Recreation Centre",
+            "address": "75 LANSDOWNE AVE",
+            "map_link": "/data/parks/maps/centres/index.html?marker=243"
+        },
+        {
+            "title": "Parkway Forest Community Centre",
+            "address": "55 Forest Manor Rd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=2791"
+        },
+        {
+            "title": "Pelmo Park Community Centre",
+            "address": "171 PELLATT AVE",
+            "map_link": "/data/parks/maps/centres/index.html?marker=722"
+        },
+        {
+            "title": "Phil White Arena",
+            "address": "443 ARLINGTON AVE",
+            "map_link": "/data/parks/maps/centres/index.html?marker=477"
+        },
+        {
+            "title": "Pine Point Arena",
+            "address": "15 GRIERSON RD",
+            "map_link": "/data/parks/maps/centres/index.html?marker=801"
+        },
+        {
+            "title": "Pleasantview Community Centre",
+            "address": "545 Van Horne Ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=732"
+        },
+        {
+            "title": "Port Union Community Recreation Centre",
+            "address": "5450 Lawrence Ave. E",
+            "map_link": "/data/parks/maps/centres/index.html?marker=883"
+        },
+        {
+            "title": "Power House Recreation Centre",
+            "address": "65 Colonel Samuel Smith Park Dr.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1429"
+        },
+        {
+            "title": "Regent Park Community Centre",
+            "address": "402 Shuter St.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=3502"
+        },
+        {
+            "title": "Roding Community Centre",
+            "address": "600 Roding St.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=744"
+        },
+        {
+            "title": "Roywood Park R.C. Clubhouse",
+            "address": "2 ROYWOOD DR",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1889"
+        },
+        {
+            "title": "S.H. Armstrong Community Centre",
+            "address": "56 Woodfield Rd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=267"
+        },
+        {
+            "title": "Scadding Court Community Centre",
+            "address": "707 Dundas St. W",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1098"
+        },
+        {
+            "title": "Scarborough Civic Centre",
+            "address": "150 Borough Dr.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1099"
+        },
+        {
+            "title": "Scarborough Gardens Arena",
+            "address": "75 Birchmount Rd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=3493"
+        },
+        {
+            "title": "Scarborough Village Recreation Centre",
+            "address": "3600 Kingston Rd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=743"
+        },
+        {
+            "title": "Secord Community Centre",
+            "address": "91 Barrington Ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=325"
+        },
+        {
+            "title": "Seneca Village Community Centre",
+            "address": "1700 FINCH AVE E",
+            "map_link": "/data/parks/maps/centres/index.html?marker=751"
+        },
+        {
+            "title": "Smithfield Community School",
+            "address": "175 Mount Olive Dr.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1320"
+        },
+        {
+            "title": "St. Lawrence Community Recreation Centre",
+            "address": "230 The Esplanade",
+            "map_link": "/data/parks/maps/centres/index.html?marker=272"
+        },
+        {
+            "title": "St. Marcellus Community School",
+            "address": "15 DENFIELD ST",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1344"
+        },
+        {
+            "title": "Stan Wadlow Clubhouse",
+            "address": "373 Cedarvale Ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=297"
+        },
+        {
+            "title": "Stephen Leacock Community Recreation Centre",
+            "address": "2500 Birchmount Rd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1105"
+        },
+        {
+            "title": "Stephen Leacock Seniors Community Centre",
+            "address": "2520 BIRCHMOUNT RD",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1873"
+        },
+        {
+            "title": "Swansea Community Recreation Centre",
+            "address": "15 Waller Ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=282"
+        },
+        {
+            "title": "Tall Pines Community Centre",
+            "address": "64 RYLANDER BLVD",
+            "map_link": "/data/parks/maps/centres/index.html?marker=623"
+        },
+        {
+            "title": "Tam Heather Curling and Tennis Club",
+            "address": "730 Military Tr.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=624"
+        },
+        {
+            "title": "Terry Fox Recreation Centre",
+            "address": "2 Gledhill Ave,",
+            "map_link": "/data/parks/maps/centres/index.html?marker=336"
+        },
+        {
+            "title": "The Elms Pool and Community School",
+            "address": "45 Golfdown Dr.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=795"
+        },
+        {
+            "title": "The New Generation Youth Recreation Centre",
+            "address": "2694 Eglinton Ave. W",
+            "map_link": "/data/parks/maps/centres/index.html?marker=474"
+        },
+        {
+            "title": "Thistletown Community Centre",
+            "address": "925 ALBION RD",
+            "map_link": "/data/parks/maps/centres/index.html?marker=354"
+        },
+        {
+            "title": "Thistletown Seniors' Centre",
+            "address": "925 ALBION RD",
+            "map_link": "/data/parks/maps/centres/index.html?marker=397"
+        },
+        {
+            "title": "Toronto Pan Am Sports Centre",
+            "address": "875 Morningside Ave.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=2773"
+        },
+        {
+            "title": "Toronto Track and Field Centre",
+            "address": "231 Ian MacDonald Blvd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=460"
+        },
+        {
+            "title": "Trace Manes Park Community Centre",
+            "address": "110 RUMSEY RD",
+            "map_link": "/data/parks/maps/centres/index.html?marker=705"
+        },
+        {
+            "title": "Trinity Community Recreation Centre",
+            "address": "155 Crawford St.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=287"
+        },
+        {
+            "title": "Victoria Village Recreation Centre and Arena",
+            "address": "190 BERMONDSEY RD",
+            "map_link": "/data/parks/maps/centres/index.html?marker=771"
+        },
+        {
+            "title": "Viewmount Community Centre",
+            "address": "169 VIEWMOUNT AVE",
+            "map_link": "/data/parks/maps/centres/index.html?marker=839"
+        },
+        {
+            "title": "Wallace Emerson Community Centre",
+            "address": "1260 Dufferin St.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=294"
+        },
+        {
+            "title": "Warden Hilltop Community Centre",
+            "address": "25 MENDELSSOHN ST",
+            "map_link": "/data/parks/maps/centres/index.html?marker=1865"
+        },
+        {
+            "title": "Wellesley Community Centre",
+            "address": "495 Sherbourne St.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=451"
+        },
+        {
+            "title": "West Acres Senior Centre",
+            "address": "65 Hinton Rd.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=396"
+        },
+        {
+            "title": "West Rouge Community Centre",
+            "address": "270 ROUGE HILLS DR",
+            "map_link": "/data/parks/maps/centres/index.html?marker=584"
+        },
+        {
+            "title": "York Civic Centre",
+            "address": "2700 Eglinton Ave. W",
+            "map_link": "/data/parks/maps/centres/index.html?marker=525"
+        },
+        {
+            "title": "York Recreation Centre",
+            "address": "115 Black Creek Dr.",
+            "map_link": "/data/parks/maps/centres/index.html?marker=3501"
+        }
+    ]
+}
