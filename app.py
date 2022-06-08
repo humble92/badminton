@@ -1,8 +1,10 @@
 from flask import Flask, render_template, request, redirect, url_for, send_file
+import os
 
 app = Flask(__name__)
-app.secret_key = 'dafk;ladsjghdsagljk'
-PROGRAM = "Volleyball"
+app.secret_key = os.getenv('secret_key')
+PROGRAM = os.getenv('default_program')
+
 
 @app.route('/')
 def home():
