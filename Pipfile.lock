@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "e44eccb141f232514482a672f49b1c1a2bcc35e85e2019454c8f02187875ae24"
+            "sha256": "dd9d7e38a0a8f2f460702fe8592574029ac22bc95d7e64432d9107ac5c6575bb"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -154,6 +154,13 @@
             "index": "pypi",
             "version": "==2.1.2"
         },
+        "googlemaps": {
+            "hashes": [
+                "sha256:2cc88cdf206deccc18e7fdfd23a0ed244209a08b2f0561fd8739c4c277325241"
+            ],
+            "index": "pypi",
+            "version": "==4.6.0"
+        },
         "h11": {
             "hashes": [
                 "sha256:70813c1135087a248a4d38cc0e1a0181ffab2188141a93eaf567940c3957ff06",
@@ -162,12 +169,20 @@
             "markers": "python_version >= '3.6'",
             "version": "==0.13.0"
         },
+        "haversine": {
+            "hashes": [
+                "sha256:357e41dfddc4a0f2b1c941d92a590cac840f7ce4b3da14b45b68d968b3ad7cc7",
+                "sha256:6e76933a1042e6e62464b66ef686331e2798147eeedcb32b503db696d7bf0582"
+            ],
+            "index": "pypi",
+            "version": "==2.5.1"
+        },
         "idna": {
             "hashes": [
                 "sha256:84d9dd047ffa80596e0f246e2eab0b391788b0503584e8945f2368256d2735ff",
                 "sha256:9d643ff0a55b762d5cdb124b8eaa99c66322e2157b69160bc32796e824360e6d"
             ],
-            "markers": "python_version >= '3.5'",
+            "markers": "python_version >= '3'",
             "version": "==3.3"
         },
         "itsdangerous": {
@@ -270,6 +285,14 @@
             "markers": "python_version >= '3.5'",
             "version": "==0.20.0"
         },
+        "requests": {
+            "hashes": [
+                "sha256:68d7c56fd5a8999887728ef304a6d12edc7be74f1cfa47714fc8b414525c9a61",
+                "sha256:f22fa1e554c9ddfd16e6e41ac79759e17be9e492b3587efa038054674760e72d"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5'",
+            "version": "==2.27.1"
+        },
         "selenium": {
             "hashes": [
                 "sha256:ba5b2633f43cf6fe9d308fa4a6996e00a101ab9cb1aad6fd91ae1f3dbe57f56f"
@@ -302,11 +325,11 @@
         },
         "trio": {
             "hashes": [
-                "sha256:670a52d3115d0e879e1ac838a4eb999af32f858163e3a704fe4839de2a676070",
-                "sha256:fb2d48e4eab0dfb786a472cd514aaadc71e3445b203bc300bad93daa75d77c1a"
+                "sha256:4dc0bf9d5cc78767fc4516325b6d80cc0968705a31d0eec2ecd7cdda466265b0",
+                "sha256:523f39b7b69eef73501cebfe1aafd400a9aad5b03543a0eded52952488ff1c13"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==0.20.0"
+            "version": "==0.21.0"
         },
         "trio-websocket": {
             "hashes": [

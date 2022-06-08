@@ -4,6 +4,9 @@
     <h1>{{ program }} programs seeker in the City of Toronto</h1>
 
     <form action="/search" method="post">
+        <label for="postcode">Postal code</label>
+        <input type="text" class="form-control" name="postcode" id="postcode" value="">
+        <br>
         <input type="hidden" name="program" value="{{ program }}" required>
         <input type="submit" value="Search">
     </form>

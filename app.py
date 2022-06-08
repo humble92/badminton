@@ -19,6 +19,7 @@ def search():
 
     from scraper import scrape_item
     program = request.form['program']
+    postcode = request.args.get('postcode')
     results = scrape_item(program=program)
     return render_template('search.html', program=program, results=results, total=len(results))
 
