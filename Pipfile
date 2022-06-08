@@ -8,6 +8,8 @@ flask = "*"
 beautifulsoup4 = "*"
 selenium = "*"
 webdriver-manager = "*"
+googlemaps = "*"
+haversine = "*"
 
 [dev-packages]
 

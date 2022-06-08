@@ -6,6 +6,7 @@ import time
 import os.path
 import json
 from manage_csv import save_csv
+from maps import Maps
 
 
 LIST_URL = "https://www.toronto.ca/data/parks/prd/facilities/recreationcentres/index.html"
@@ -128,6 +129,21 @@ class ItemScraper(BaseScraper):
 class NotFoundProgramException(Exception):
     pass
 
+
+def scrape_manager(postcode):
+    
+    if not os.path.exists(JSON_FILE):
+        scrape_list()
+
+    with open(JSON_FILE) as f:
+        rec_centres = json.load(f)
+        m = Maps()
+        for rec_centre in rec_centres['rec_centres']:
+            dest = f"{rec_centre['address']} Toronto"
+            d = m.calc_distance(postcode, dest)
+            print(d)
+
+
 def scrape_list():
     it = ListScraper()(LIST_URL)
     rec_centres = {'rec_centres': []}
@@ -166,3 +182,4 @@ def write_json(python_obj, filename=JSON_FILE, mode='w', indent=4):
 
 # temporarily test w/ Volleyball
 # scrape_item("Volleyball")
+scrape_manager("M3K 2C8")
