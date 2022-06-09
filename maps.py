@@ -1,6 +1,6 @@
-from dis import dis
-import googlemaps
 import os
+
+import googlemaps
 from haversine import haversine
 
 
@@ -19,7 +19,6 @@ class Maps:
         coordinate2 = self.geocoder(dest).values()
         distance = haversine(tuple(coordinate1), tuple(coordinate2))
         return distance
-
 
 # Simple test
 # g = Maps()

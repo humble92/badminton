@@ -12,7 +12,7 @@
 </head>
 <body>
     {% for message in get_flashed_messages() %}
-    <div class="container text-center">
+    <div class="flash_message danger">
       <div class="p-3 mb-2 bg-danger text-white">{{ message }}</div>
     </div>
 

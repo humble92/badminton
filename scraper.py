@@ -1,14 +1,15 @@
+import json
+import os.path
+import re
+import time
+
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
-import time
-import os.path
-import json
-import re
+
 from manage_csv import save_csv
 from maps import Maps
-
 
 LIST_URL = "https://www.toronto.ca/data/parks/prd/facilities/recreationcentres/index.html"
 ITEM_URL_TEMPLATE = "https://www.toronto.ca{}"
@@ -31,7 +32,7 @@ class BaseScraper:
         # initiating the webdriver. Parameter includes the path of the webdriver.
         options = Options()
         options.add_argument("start-maximized")
-        options.add_argument("--headless") # Ensure GUI is off
+        options.add_argument("--headless")
         options.add_argument("--no-sandbox")
 
         dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -78,16 +79,16 @@ class ItemScraper(BaseScraper):
         soup = BeautifulSoup(html, "html.parser")
 
         try:
-            rec_centre = soup.find("div", {"class":"accbox"}).find("h1")
-            dropIns = soup.find("div", {"id":"pfrComplexTabs-dropin"})
-            sports_tab = dropIns.find("tr", {"id":"dropin_Sports_0"})
+            rec_centre = soup.find("div", {"class": "accbox"}).find("h1")
+            drop_in = soup.find("div", {"id": "pfrComplexTabs-dropin"})
+            sports_tab = drop_in.find("tr", {"id": "dropin_Sports_0"})
             sports = sports_tab.tbody.find_all("tr")
-            days = [ d.get_text(strip=True) for d in sports_tab.thead.find_all("th") ]
+            days = [d.get_text(strip=True) for d in sports_tab.thead.find_all("th")]
             days.pop(0)
 
             programs_count = 0
             for sport in sports:
-                program_span = sport.find("span", {"class":"coursetitlecol"})
+                program_span = sport.find("span", {"class": "coursetitlecol"})
                 
                 if program_span.get_text() == program:
                     age = program_span.find_next_sibling("span").get_text(strip=True)
@@ -199,17 +200,18 @@ def scrape_manager(postcode, program=PROGRAM, limit=5):
             rec_centres = json.load(f)
             m = Maps()
 
-            l = []
+            # point to point information (zipcode to recreation centres)
+            p2p_info_list = []
             for rec_centre in rec_centres['rec_centres']:
                 dest = f"{rec_centre['address']} Toronto"
                 distance = m.calc_distance(postcode, dest)
-                l.append({
+                p2p_info_list.append({
                     'id': rec_centre['id'],
                     'distance': distance,
                     'url': rec_centre['url'],
                 })
 
-                sorted_rec_centres = sorted(l, key=lambda d: d['distance'])
+                sorted_rec_centres = sorted(p2p_info_list, key=lambda d: d['distance'])
 
             write_json(sorted_rec_centres, postcode_cache_filename)
 
@@ -232,4 +234,3 @@ def scrape_manager(postcode, program=PROGRAM, limit=5):
 # scrape_item("/data/parks/prd/facilities/complex/13/index.html", "Volleyball")
 # scrape_manager("M5T 1G4")
 # scrape_manager("M5V 0R6", program="Volleyball", limit=5)
-

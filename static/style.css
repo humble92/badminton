@@ -1,3 +1,16 @@
 #main_container {
     margin-left: 1em; 
 }
+
+.flash_message {
+    height: 35px;
+}
+
+.danger {
+    padding: 2px 0px;
+    background-color: #d26b44;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em;
+}
