@@ -1,7 +1,7 @@
 Badminton Activities in the City of Toronto
 ============================================
 
-Provide drop-in adult badminton programs in the City of Toronto
+Provide drop-in adult badminton programs in the City of Toronto.
 
 ## Features
 
@@ -48,3 +48,15 @@ flask run
 1. When a recreation centre would newly be built, you can just delete 
 `Recreation_Centres_Info.json` in the repository root directory. That's it. 
 Brand-new information should be reflected.
+
+2. By modifying `default_program` variable in `.env`, you can switch this app to retrieve another activity program, 
+i.e. "Volleyball". In order to do that, you should export `default_program` variable(or re-enter virtual environment)
+and re-run the server.
+
+3. The parsed webpage info is cached in a file format in the `data` directory. We recommend to keep this directory 
+unless you don't understand what you are doing.
+
+## Note
+
+The app utilizes contents in the [Toronto Recreation Center webpages](https://www.toronto.ca/data/parks/prd/facilities/recreationcentres/index.html). 
+The app might need to be adjusted to reflect the future potential changes on the website.
