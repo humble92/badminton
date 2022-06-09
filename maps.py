@@ -18,12 +18,11 @@ class Maps:
         coordinate1 = self.geocoder(origin).values()
         coordinate2 = self.geocoder(dest).values()
         distance = haversine(tuple(coordinate1), tuple(coordinate2))
-        # print(distance)
         return distance
 
 
 # Simple test
-g = Maps()
+# g = Maps()
 # g.geocoder("M4E 3L8")
-g.calc_distance("M4E 3L8", "1501 ALBION RD Toronto")
-g.calc_distance("M4E 3L8", "M4E 3L8")
+# g.calc_distance("M4E 3L8".lower(), "1501 ALBION RD Toronto")
+# g.calc_distance("M4E 3L8", "M4E 3L8")
