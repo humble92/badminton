@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, send_file
+from flask import Flask, render_template, request, redirect, url_for, send_file, flash
 import os
 
 app = Flask(__name__)
@@ -20,11 +20,15 @@ def search():
     from scraper import scrape_manager
     program = request.form['program']
     postcode = request.form['postcode']
-    postcode_key = postcode.replace(' ', '').lower()
+    postcode = postcode.replace(' ', '').strip().lower()
     limit = int(request.form['limit'])
-    results = scrape_manager(postcode, program=program, limit=limit)
+    try:  
+      results = scrape_manager(postcode, program=program, limit=limit)
+    except ValueError:
+      flash('Invalid postal code.')
+      return redirect(url_for('search'))
 
-    return render_template('search.html', postcode=postcode_key, program=program, limit=limit, results=results, total=len(results))
+    return render_template('search.html', postcode=postcode, program=program, limit=limit, results=results, total=len(results))
 
 @app.route("/export")
 def export():
@@ -34,4 +38,4 @@ def export():
     return send_file(f'data/output/csv/{postcode}-{program}.csv')
   except:
     # just in case: after searching, csv file should exist
-    return redirect("/")
+    return redirect(url_for('search'))

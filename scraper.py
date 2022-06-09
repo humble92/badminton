@@ -5,6 +5,7 @@ from selenium.webdriver.chrome.service import Service
 import time
 import os.path
 import json
+import re
 from manage_csv import save_csv
 from maps import Maps
 
@@ -14,6 +15,14 @@ ITEM_URL_TEMPLATE = "https://www.toronto.ca{}"
 JSON_FILE = "Recreation_Centres_Info.json"
 CACHE_DIR = "data/cache"
 PROGRAM = os.getenv('default_program')
+
+
+class NotFoundProgramException(Exception):
+    pass
+
+
+class InvalidValueError(ValueError):
+    pass
 
 
 class BaseScraper:
@@ -129,10 +138,6 @@ class ItemScraper(BaseScraper):
         return False
 
 
-class NotFoundProgramException(Exception):
-    pass
-
-
 def scrape_list():
     it = ListScraper()(LIST_URL)
     rec_centres = {'rec_centres': []}
@@ -168,13 +173,19 @@ def write_json(python_obj, filename=JSON_FILE, mode='w', indent=4):
         json.dump(python_obj, f, indent=indent)
 
 
+def is_valid_postcode(postcode):
+    result = re.findall(r'[a-z]{1}[0-9]{1}[a-z]{1}\s*[0-9]{1}[a-z]{1}[0-9]{1}', postcode)
+    if len(result) == 1 and len(postcode) == 6:
+        return True
+    return False
+
+
 def scrape_manager(postcode, program=PROGRAM, limit=5):
 
-    postcode_key = postcode.replace(' ', '').lower()
-    # TODO - postcode_key verification
+    if not is_valid_postcode(postcode):
+        raise ValueError('Error: invalid postcode')
 
-
-    postcode_cache_filename = f'{CACHE_DIR}/{postcode_key}.json'
+    postcode_cache_filename = f'{CACHE_DIR}/{postcode}.json'
 
     try:
         with open(postcode_cache_filename) as f:
@@ -212,8 +223,8 @@ def scrape_manager(postcode, program=PROGRAM, limit=5):
             if len(results):
                 programs_json[program].extend(results)
 
-    write_json(programs_json, f'data/output/{postcode_key}-{program}.json')
-    save_csv(f'{postcode_key}-{program}', programs_json[program])
+    write_json(programs_json, f'data/output/{postcode}-{program}.json')
+    save_csv(f'{postcode}-{program}', programs_json[program])
     return programs_json[program]
     
 # simple tests

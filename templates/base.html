@@ -11,7 +11,13 @@
     {% endblock %}
 </head>
 <body>
-    <div id="main_container">
+    {% for message in get_flashed_messages() %}
+    <div class="container text-center">
+      <div class="p-3 mb-2 bg-danger text-white">{{ message }}</div>
+    </div>
+
+    {% endfor %}
+      <div id="main_container">
         {% block main %}
         {% endblock %}
     </div>
