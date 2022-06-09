@@ -1,0 +1,473 @@
+{
+    "Badminton": [
+        {
+            "location": "Trinity Community Recreation Centre",
+            "day": "Mon Jun 06",
+            "timeslot": "8 - 9:30am",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/287/index.html"
+        },
+        {
+            "location": "Trinity Community Recreation Centre",
+            "day": "Tue Jun 07",
+            "timeslot": "8 - 9:30am",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/287/index.html"
+        },
+        {
+            "location": "Trinity Community Recreation Centre",
+            "day": "Wed Jun 08",
+            "timeslot": "8 - 9:30am",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/287/index.html"
+        },
+        {
+            "location": "Trinity Community Recreation Centre",
+            "day": "Thu Jun 09",
+            "timeslot": "8 - 9:30am",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/287/index.html"
+        },
+        {
+            "location": "Trinity Community Recreation Centre",
+            "day": "Fri Jun 10",
+            "timeslot": "8 - 9:30am",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/287/index.html"
+        },
+        {
+            "location": "Trinity Community Recreation Centre",
+            "day": "Sat Jun 11",
+            "timeslot": "3 - 5pm",
+            "age": "13 - 18yrs",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/287/index.html"
+        },
+        {
+            "location": "Trinity Community Recreation Centre",
+            "day": "Sun Jun 05",
+            "timeslot": "3 - 5pm",
+            "age": "18yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/287/index.html"
+        },
+        {
+            "location": "St. Lawrence Community Recreation Centre",
+            "day": "Thu Jun 09",
+            "timeslot": "6:30 - 8:45pm",
+            "age": "18yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/272/index.html"
+        },
+        {
+            "location": "St. Lawrence Community Recreation Centre",
+            "day": "Sat Jun 11",
+            "timeslot": "11am - 2pm",
+            "age": "18yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/272/index.html"
+        },
+        {
+            "location": "Masaryk-Cowan Community Recreation Centre",
+            "day": "Wed Jun 08",
+            "timeslot": "4:15 - 6:15pm",
+            "age": "13 - 24yrs",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/89/index.html"
+        },
+        {
+            "location": "Wellesley Community Centre",
+            "day": "Fri Jun 10",
+            "timeslot": "5:45 - 6:30pm",
+            "age": "13 - 24yrs",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/451/index.html"
+        },
+        {
+            "location": "Jimmie Simpson Recreation Centre",
+            "day": "Mon Jun 06",
+            "timeslot": "10:15am - 12pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/58/index.html"
+        },
+        {
+            "location": "Jimmie Simpson Recreation Centre",
+            "day": "Tue Jun 07",
+            "timeslot": "1:30 - 3:30pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/58/index.html"
+        },
+        {
+            "location": "Jimmie Simpson Recreation Centre",
+            "day": "Wed Jun 08",
+            "timeslot": "10:15am - 12pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/58/index.html"
+        },
+        {
+            "location": "Jimmie Simpson Recreation Centre",
+            "day": "Fri Jun 10",
+            "timeslot": "1:30 - 3pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/58/index.html"
+        },
+        {
+            "location": "Matty Eckler Recreation Centre",
+            "day": "Tue Jun 07",
+            "timeslot": "12:30 - 3pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/234/index.html"
+        },
+        {
+            "location": "Matty Eckler Recreation Centre",
+            "day": "Wed Jun 08",
+            "timeslot": "12:30 - 3pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/234/index.html"
+        },
+        {
+            "location": "Matty Eckler Recreation Centre",
+            "day": "Fri Jun 10",
+            "timeslot": "12:30 - 3pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/234/index.html"
+        },
+        {
+            "location": "Matty Eckler Recreation Centre",
+            "day": "Tue Jun 07",
+            "timeslot": "7 - 8:30pm",
+            "age": "13 - 24yrs",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/234/index.html"
+        },
+        {
+            "location": "Matty Eckler Recreation Centre",
+            "day": "Sun Jun 05",
+            "timeslot": "3:15 - 5:15pm",
+            "age": "18yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/234/index.html"
+        },
+        {
+            "location": "Swansea Community Recreation Centre",
+            "day": "Mon Jun 06",
+            "timeslot": "8 - 9:30pm",
+            "age": "19yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/282/index.html"
+        },
+        {
+            "location": "Swansea Community Recreation Centre",
+            "day": "Fri Jun 10",
+            "timeslot": "8 - 9:30pm",
+            "age": "19yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/282/index.html"
+        },
+        {
+            "location": "Joseph J. Piccininni Community Centre",
+            "day": "Mon Jun 06",
+            "timeslot": "7:15 - 9:30pm",
+            "age": "19yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/509/index.html"
+        },
+        {
+            "location": "Joseph J. Piccininni Community Centre",
+            "day": "Wed Jun 08",
+            "timeslot": "7:15 - 9:30pm",
+            "age": "19yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/509/index.html"
+        },
+        {
+            "location": "Joseph J. Piccininni Community Centre",
+            "day": "Fri Jun 10",
+            "timeslot": "7:15 - 9:30pm",
+            "age": "19yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/509/index.html"
+        },
+        {
+            "location": "North Toronto Memorial Community Centre",
+            "day": "Mon Jun 06",
+            "timeslot": "1:30 - 3:30pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/189/index.html"
+        },
+        {
+            "location": "North Toronto Memorial Community Centre",
+            "day": "Wed Jun 08",
+            "timeslot": "1:30 - 3:30pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/189/index.html"
+        },
+        {
+            "location": "North Toronto Memorial Community Centre",
+            "day": "Fri Jun 10",
+            "timeslot": "1:30 - 3:30pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/189/index.html"
+        },
+        {
+            "location": "North Toronto Memorial Community Centre",
+            "day": "Sun Jun 05",
+            "timeslot": "3:45 - 5pm",
+            "age": "19yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/189/index.html"
+        },
+        {
+            "location": "North Toronto Memorial Community Centre",
+            "day": "Tue Jun 07",
+            "timeslot": "7:15 - 8:15pm",
+            "age": "19yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/189/index.html"
+        },
+        {
+            "location": "North Toronto Memorial Community Centre",
+            "day": "Thu Jun 09",
+            "timeslot": "6:15 - 7:30pm",
+            "age": "19yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/189/index.html"
+        },
+        {
+            "location": "North Toronto Memorial Community Centre",
+            "day": "Sat Jun 11",
+            "timeslot": "3 - 4pm",
+            "age": "19yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/189/index.html"
+        },
+        {
+            "location": "Ourland Community Centre",
+            "day": "Mon Jun 06",
+            "timeslot": "10am - 12pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/793/index.html"
+        },
+        {
+            "location": "Ourland Community Centre",
+            "day": "Fri Jun 10",
+            "timeslot": "12:30 - 3pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/793/index.html"
+        },
+        {
+            "location": "Glen Long Community Centre",
+            "day": "Wed Jun 08",
+            "timeslot": "12 - 2pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/638/index.html"
+        },
+        {
+            "location": "Armour Heights Community Centre",
+            "day": "Fri Jun 10",
+            "timeslot": "11:45am - 1:15pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/503/index.html"
+        },
+        {
+            "location": "Birchmount Community Centre",
+            "day": "Fri Jun 10",
+            "timeslot": "7 - 9pm",
+            "age": "18yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/507/index.html"
+        },
+        {
+            "location": "Birchmount Community Centre",
+            "day": "Fri Jun 10",
+            "timeslot": "1 - 3pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/507/index.html"
+        },
+        {
+            "location": "Birchmount Community Centre",
+            "day": "Fri Jun 10",
+            "timeslot": "4 - 6pm",
+            "age": "13 - 18yrs",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/507/index.html"
+        },
+        {
+            "location": "Warden Hilltop Community Centre",
+            "day": "Mon Jun 06",
+            "timeslot": "12:30 - 3pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1865/index.html"
+        },
+        {
+            "location": "Warden Hilltop Community Centre",
+            "day": "Wed Jun 08",
+            "timeslot": "12:30 - 3pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1865/index.html"
+        },
+        {
+            "location": "Warden Hilltop Community Centre",
+            "day": "Thu Jun 09",
+            "timeslot": "12:30 - 3pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1865/index.html"
+        },
+        {
+            "location": "Warden Hilltop Community Centre",
+            "day": "Sun Jun 05",
+            "timeslot": "1 - 4pm",
+            "age": "18yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1865/index.html"
+        },
+        {
+            "location": "Warden Hilltop Community Centre",
+            "day": "Mon Jun 06",
+            "timeslot": "12:30 - 3pm",
+            "age": "18yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1865/index.html"
+        },
+        {
+            "location": "Warden Hilltop Community Centre",
+            "day": "Wed Jun 08",
+            "timeslot": "12:30 - 3pm",
+            "age": "18yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1865/index.html"
+        },
+        {
+            "location": "Warden Hilltop Community Centre",
+            "day": "Thu Jun 09",
+            "timeslot": "12:30 - 3pm6:30 - 8:30pm",
+            "age": "18yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1865/index.html"
+        },
+        {
+            "location": "Don Montgomery Community Centre",
+            "day": "Mon Jun 06",
+            "timeslot": "11:45am - 2pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/712/index.html"
+        },
+        {
+            "location": "Don Montgomery Community Centre",
+            "day": "Wed Jun 08",
+            "timeslot": "10:30am - 12:30pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/712/index.html"
+        },
+        {
+            "location": "Don Montgomery Community Centre",
+            "day": "Thu Jun 09",
+            "timeslot": "8:30 - 10:30pm",
+            "age": "18yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/712/index.html"
+        },
+        {
+            "location": "Don Montgomery Community Centre",
+            "day": "Fri Jun 10",
+            "timeslot": "12:45 - 2:15pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/712/index.html"
+        },
+        {
+            "location": "Parkway Forest Community Centre",
+            "day": "Mon Jun 06",
+            "timeslot": "2 - 3:30pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2791/index.html"
+        },
+        {
+            "location": "Parkway Forest Community Centre",
+            "day": "Tue Jun 07",
+            "timeslot": "11am - 1pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2791/index.html"
+        },
+        {
+            "location": "Parkway Forest Community Centre",
+            "day": "Fri Jun 10",
+            "timeslot": "12 - 2pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2791/index.html"
+        },
+        {
+            "location": "Edithvale Community Centre",
+            "day": "Mon Jun 06",
+            "timeslot": "10am - 12pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1463/index.html"
+        },
+        {
+            "location": "Edithvale Community Centre",
+            "day": "Sun Jun 05",
+            "timeslot": "10am - 12pm",
+            "age": "19yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1463/index.html"
+        },
+        {
+            "location": "Oriole Community Centre",
+            "day": "Wed Jun 08",
+            "timeslot": "1 - 3pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/714/index.html"
+        },
+        {
+            "location": "Oriole Community Centre",
+            "day": "Sun Jun 05",
+            "timeslot": "12:45 - 2:45pm",
+            "age": "18yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/714/index.html"
+        },
+        {
+            "location": "Heron Park Community Centre",
+            "day": "Tue Jun 07",
+            "timeslot": "9:30 - 11:30am",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/633/index.html"
+        },
+        {
+            "location": "Heron Park Community Centre",
+            "day": "Thu Jun 09",
+            "timeslot": "9:30 - 11:30am",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/633/index.html"
+        },
+        {
+            "location": "Milliken Park Community Recreation Centre",
+            "day": "Tue Jun 07",
+            "timeslot": "9:30am - 12pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/405/index.html"
+        },
+        {
+            "location": "Milliken Park Community Recreation Centre",
+            "day": "Thu Jun 09",
+            "timeslot": "9:30am - 12:30pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/405/index.html"
+        },
+        {
+            "location": "Milliken Park Community Recreation Centre",
+            "day": "Thu Jun 09",
+            "timeslot": "12:45 - 3:45pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/405/index.html"
+        },
+        {
+            "location": "Milliken Park Community Recreation Centre",
+            "day": "Sat Jun 11",
+            "timeslot": "8:30 - 10pm",
+            "age": "18yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/405/index.html"
+        },
+        {
+            "location": "Malvern Recreation Centre",
+            "day": "Mon Jun 06",
+            "timeslot": "9am - 12pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/702/index.html"
+        },
+        {
+            "location": "Malvern Recreation Centre",
+            "day": "Wed Jun 08",
+            "timeslot": "9am - 12pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/702/index.html"
+        },
+        {
+            "location": "Malvern Recreation Centre",
+            "day": "Fri Jun 10",
+            "timeslot": "9am - 12pm",
+            "age": "60yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/702/index.html"
+        },
+        {
+            "location": "Malvern Recreation Centre",
+            "day": "Sat Jun 11",
+            "timeslot": "6:30 - 8:30pm",
+            "age": "18yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/702/index.html"
+        }
+    ]
+}
