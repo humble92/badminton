@@ -10,8 +10,10 @@ from maps import Maps
 
 
 LIST_URL = "https://www.toronto.ca/data/parks/prd/facilities/recreationcentres/index.html"
-ITEM_URL = "https://www.toronto.ca/data/parks/prd/facilities/complex/3643/index.html"
+ITEM_URL_TEMPLATE = "https://www.toronto.ca{}"
 JSON_FILE = "Recreation_Centres_Info.json"
+CACHE_DIR = "data/cache"
+PROGRAM = os.getenv('default_program')
 
 
 class BaseScraper:
@@ -40,13 +42,15 @@ class ListScraper(BaseScraper):
         soup = BeautifulSoup(html, "html.parser")
 
         items = soup.tbody.find_all("tr")
-        for item in items:
+        for i, item in enumerate(items):
             title, map_link = item.find_all("a")
             address = item.find("td", {"data-info": "Address"})
 
             yield {
+                "id": i + 1,
                 "title": title.get_text(strip=True),
                 "address": address.get_text(strip=True),
+                "url": title['href'],
                 "map_link": map_link['href'],
             }
 
@@ -55,8 +59,8 @@ class ListScraper(BaseScraper):
 
 class ItemScraper(BaseScraper):
 
-    def __call__(self, url, program="Badminton"):
-
+    def __call__(self, url, program=PROGRAM):
+        print(f'[Parsing] {url}')
         self.driver.get(url)
 
         # this is just to ensure that the page is completely loaded
@@ -85,7 +89,6 @@ class ItemScraper(BaseScraper):
                     for i, timeslot_td in enumerate(sport.find_all("td")):
                         timeslot = timeslot_td.get_text(strip=True)
                         if timeslot:
-                            print(i)
                             programs_count += 1
 
                             yield {
@@ -130,20 +133,6 @@ class NotFoundProgramException(Exception):
     pass
 
 
-def scrape_manager(postcode):
-    
-    if not os.path.exists(JSON_FILE):
-        scrape_list()
-
-    with open(JSON_FILE) as f:
-        rec_centres = json.load(f)
-        m = Maps()
-        for rec_centre in rec_centres['rec_centres']:
-            dest = f"{rec_centre['address']} Toronto"
-            d = m.calc_distance(postcode, dest)
-            print(d)
-
-
 def scrape_list():
     it = ListScraper()(LIST_URL)
     rec_centres = {'rec_centres': []}
@@ -158,20 +147,19 @@ def scrape_list():
     print("List of Recreation Centres has been initialized.")
 
 
-def scrape_item(program="Badminton"):
-    it = ItemScraper()(ITEM_URL, program)
-    programs = {program: []}
+def scrape_item(url, program=PROGRAM):
+    url = ITEM_URL_TEMPLATE.format(url)
+    it = ItemScraper()(url, program)
+    programs = []
     while True:
         try:
             data = next(it)
-            programs[program].append(data)
+            programs.append(data)
         except StopIteration:
             break
 
-    write_json(programs, f'programs_data/{program}.json')
-    save_csv(program, programs[program])
-    print(f"Drop-in {program} programs have been parsed.")
-    return programs[program]
+    print(f"[Done] {url}")
+    return programs
 
 
 # function to add to JSON
@@ -180,6 +168,57 @@ def write_json(python_obj, filename=JSON_FILE, mode='w', indent=4):
         json.dump(python_obj, f, indent=indent)
 
 
-# temporarily test w/ Volleyball
-# scrape_item("Volleyball")
-scrape_manager("M3K 2C8")
+def scrape_manager(postcode, program=PROGRAM, limit=5):
+
+    postcode_key = postcode.replace(' ', '').lower()
+    # TODO - postcode_key verification
+
+
+    postcode_cache_filename = f'{CACHE_DIR}/{postcode_key}.json'
+
+    try:
+        with open(postcode_cache_filename) as f:
+            sorted_rec_centres = json.load(f)
+    except FileNotFoundError:
+        # only run when a postcode cache info doesn't exist
+        if not os.path.exists(JSON_FILE):
+            scrape_list()
+
+        with open(JSON_FILE) as f:
+            rec_centres = json.load(f)
+            m = Maps()
+
+            l = []
+            for rec_centre in rec_centres['rec_centres']:
+                dest = f"{rec_centre['address']} Toronto"
+                distance = m.calc_distance(postcode, dest)
+                l.append({
+                    'id': rec_centre['id'],
+                    'distance': distance,
+                    'url': rec_centre['url'],
+                })
+
+                sorted_rec_centres = sorted(l, key=lambda d: d['distance'])
+
+            write_json(sorted_rec_centres, postcode_cache_filename)
+
+    programs_json = {program: []}
+    for i, centre in enumerate(sorted_rec_centres):
+        if limit:
+            results = scrape_item(centre['url'], program)
+            print(f'>>> {i+1} recreation centre(s) parsed.')
+            limit -= 1
+
+            if len(results):
+                programs_json[program].extend(results)
+
+    write_json(programs_json, f'data/output/{postcode_key}-{program}.json')
+    save_csv(f'{postcode_key}-{program}', programs_json[program])
+    return programs_json[program]
+    
+# simple tests
+# scrape_list()
+# scrape_item("/data/parks/prd/facilities/complex/13/index.html", "Volleyball")
+# scrape_manager("M5T 1G4")
+# scrape_manager("M5V 0R6", program="Volleyball", limit=5)
+

@@ -15,19 +15,23 @@ def home():
 @app.route('/search', methods=['GET', 'POST'])
 def search():
     if request.method == 'GET':
-        return render_template('search.html', program=PROGRAM)
+        return render_template('search.html', program=PROGRAM, limit=1)
 
-    from scraper import scrape_item
+    from scraper import scrape_manager
     program = request.form['program']
-    postcode = request.args.get('postcode')
-    results = scrape_item(program=program)
-    return render_template('search.html', program=program, results=results, total=len(results))
+    postcode = request.form['postcode']
+    postcode_key = postcode.replace(' ', '').lower()
+    limit = int(request.form['limit'])
+    results = scrape_manager(postcode, program=program, limit=limit)
+
+    return render_template('search.html', postcode=postcode_key, program=program, limit=limit, results=results, total=len(results))
 
 @app.route("/export")
 def export():
   try:
+    postcode = request.args.get('postcode')
     program = request.args.get('program')
-    return send_file(f'programs_data/csv/{program}.csv')
+    return send_file(f'data/output/csv/{postcode}-{program}.csv')
   except:
     # just in case: after searching, csv file should exist
     return redirect("/")

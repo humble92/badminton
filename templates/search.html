@@ -5,7 +5,10 @@
 
     <form action="/search" method="post">
         <label for="postcode">Postal code</label>
-        <input type="text" class="form-control" name="postcode" id="postcode" value="">
+        <input type="text" class="form-control" name="postcode" id="postcode" value="{{ postcode }}">
+        <br>
+        <label for="limit">Nearest Recreation Centres</label>
+        <input type="number" class="form-control" name="limit" id="limit" value="{{ limit }}" min="1" max="5">
         <br>
         <input type="hidden" name="program" value="{{ program }}" required>
         <input type="submit" value="Search">
@@ -13,7 +16,7 @@
 
     {% if results %}
     <h2>{{ program }} programs found (Total: {{ total }}):</h2>
-    <a href="/export?program={{ program }}" target="_blank">Download</a>
+    <a href="/export?postcode={{ postcode }}&program={{ program }}" target="_blank">Download</a>
     <section>
         <h4>Location</h4>
         <h4>Day</h4>
