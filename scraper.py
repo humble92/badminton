@@ -228,5 +228,5 @@ def scrape_manager(postcode, program=PROGRAM, limit=5):
 # simple tests
 # scrape_list()
 # scrape_item("/data/parks/prd/facilities/complex/13/index.html", "Volleyball")
-# scrape_manager("M5T 1G4")
-# scrape_manager("M5V 0R6", program="Volleyball", limit=5)
+# scrape_manager("m5t1g4")
+# scrape_manager("m5v0r6", program="Badminton", limit=164)
