@@ -129,12 +129,8 @@ class ItemScraper(BaseScraper):
 
         if len(numbers) >= 2 and numbers[-1] >= 18:
             return True
-        elif len(numbers) == 1 and numbers[0] >= 18:
-            # just in case
-            if 'under' in age_string:
-                return False
-            else:
-                return True
+        elif len(numbers) == 1 and 'over' in age_string:
+            return True
 
         return False
 

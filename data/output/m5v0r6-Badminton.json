@@ -71,6 +71,20 @@
             "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/89/index.html"
         },
         {
+            "location": "John Innes Community Recreation Centre",
+            "day": "Mon Jun 06",
+            "timeslot": "8 - 9:30pm",
+            "age": "16yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/63/index.html"
+        },
+        {
+            "location": "John Innes Community Recreation Centre",
+            "day": "Sat Jun 11",
+            "timeslot": "1:30 - 5pm",
+            "age": "16yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/63/index.html"
+        },
+        {
             "location": "Wellesley Community Centre",
             "day": "Fri Jun 10",
             "timeslot": "5:45 - 6:30pm",
@@ -237,6 +251,20 @@
             "timeslot": "12:30 - 3pm",
             "age": "60yrs and over",
             "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/793/index.html"
+        },
+        {
+            "location": "York Recreation Centre",
+            "day": "Wed Jun 08",
+            "timeslot": "11:30am - 1pm",
+            "age": "17yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/3501/index.html"
+        },
+        {
+            "location": "York Recreation Centre",
+            "day": "Fri Jun 10",
+            "timeslot": "11am - 12:30pm",
+            "age": "17yrs and over",
+            "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/3501/index.html"
         },
         {
             "location": "Glen Long Community Centre",
